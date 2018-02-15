@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <title>Period Drama Search</title>
+  </head>
+  <body>
+
+    <div class="header"><h1>Period Drama Search</h1></div>
+    <div class="container">
+    <p class="intro">Welcome to Period Drama Search! Here you can search for your favorite period drama TV shows and movies and find information about the different versions available on iTunes.</p>
+    <p class="intro">Search suggestions: Poldark, Pride and Prejudice, Victoria, Sense and Sensibility</p>
+    </div>
+    <div class="forms">
+    	<div class="box">
+			<h2>Find a TV show</h2>
+			<form id="tv">
+  				<label>TV Show title: </label>
+  				<input id="tvInput" type="text"></input><br/>
+  				<input id="tvSubmit" type="submit" value="Search"></input>
+			</form>
+		</div>
+		<div class="box">
+			<h2>Find a movie</h2>
+			<form id="movie">
+  				<label>Movie title: </label>
+  				<input id="movieInput" type="text"></input><br/>
+  				<input id="movieSubmit" type="submit" value="Search"></input>
+			</form>
+		</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script text="type/javascript" src="script.js">
+    </script>
+    	<div class="box">
+    		<div id="tvResults">
+    		</div>
+    	</div>
+    	<div class="box">
+			<div id="movieResults">
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<a href="https://github.com/BYU-CS260-Winter-2018/lab-2-user1837.git">Github Repository</a>
+	</div>
+
+  </body>
+</html>
